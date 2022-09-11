@@ -6,22 +6,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Portfolio Natacha Carvalho </title>
         <link rel="shortcut icon" href="img/cereja.jpg">
-        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        <script src="https://use.fontawesome.com/releases/v6.2.0/js/all.js"
             data-auto-replace-svg="nest"></script>
-
+        <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-        <header>
+        <header class="header-menu">
             <nav>
-                <ul>
+                <ul class="lista-menu">
                     <li>
-                        <a href="#formacao"> Formação </a>
+                        <a href="#formacao"> <b> Formação </b> </a>
                     </li>
                     <li>
-                        <a href="#projetos"> Meus Projetos </a>
+                        <a href="#projetos"> <b> Meus Projetos </b> </a>
                     </li>
                     <li>
-                        <a href="#contatos"> Contatos </a>
+                        <a href="#contatos"> <b> Contatos </b> </a>
                     </li>
 
                 </ul>
@@ -30,89 +31,92 @@
 
         </header>
 
-        <main class="container">
+        <main>
 
-            <section>
+            <section class="principal">
+                <div class="subcontainer-principal container">
+                    <div>
+                        <img src="img/eunata.jpg"
+                            alt="Imagem de Natacha" class="avatar">
+                    </div>
 
-                <div>
-                    <img src="img/eunata.jpg" alt="Imagem de Natacha">
+                    <div>
+                        <h1 class="nome-completo"> Natacha Carvalho </h1>
+                        <h2 class="profissao"> Entusiasta da tecnologia </h2>
+                    </div>
+
+                    <div class="texto-sobre">
+                        <p>
+                            Graduanda em Letras Português - Literaturas na UFRJ.
+                            Formação técnica em Análises Clínicas e Guia de
+                            Turismo.
+                            Mulher, preta, suburbana, nascida e criada no Rio de
+                            Janeiro, residente do bairro Engenho da Rainha e que
+                            caminha por diversas áreas de atuação profissional
+                            com o
+                            propósito de adquirir conhecimento e experiência de
+                            vida. Durante minhas formações e trajetórias tenho
+                            me
+                            empenhado em servir à comunidade, inserindo meus
+                            conhecimentos e aprendizados. Atualmente estou na
+                            área de relacionamento
+                            ao cliente e tenho interesse em aprofundar meu
+                            conhecimento em tecnologia,
+                            precisamente em programação na área de
+                            desenvolvimento de softwares.
+                        </p>
+                    </div>
                 </div>
-
-                <div>
-                    <h1> Natacha Carvalho </h1>
-                    <h3> Entusiasta da tecnologia </h3>
-                </div>
-
-                <div>
-                    <p>
-                        Graduanda em Letras Português - Literaturas na UFRJ.
-                        Formação técnica em Análises Clínicas e Guia de Turismo.
-                        Mulher, preta, suburbana, nascida e criada no Rio de
-                        Janeiro, residente do bairro Engenho da Rainha e que
-                        caminha por diversas áreas de atuação profissional com o
-                        propósito de adquirir conhecimento e experiência de
-                        vida. Durante minhas formações e trajetórias tenho me
-                        empenhado em servir à comunidade, inserindo meus
-                        conhecimentos e aprendizados. Atualmente estou na área de relacionamento
-                        ao cliente e tenho interesse em aprofundar meu conhecimento em tecnologia, 
-                        precisamente em programação na área de desenvolvimento de softwares.
-                    </p>
-                </div>
-
             </section>
 
             <section id="formacao">
+        <div class="container article-lista">
                 <div>
-                    <b>Formação</b>
+                    <h3 class="topico-principal"><b>Formação</b></h3>
                 </div>
 
-                <div>
+                <div class="lista-item">
                     <ul>
                         <li>
-                            <p><b>Ciclo Formativo Pretalab</b></p>
-                            <a href="https://www.pretalab.com/formacao"
-                                target="_blank">Pretalab / Olabi</a>
-                            <p> Formação básica em HTML, CSS e Javascript </p>
-                            <p> Carga horaria: xxx horas</p>
-                        </li>
-                    </ul>
-                </div>
-
-                <div>
-                    <ul>
+                            <p class="lista-titulo"> <b>Ciclo Formativo Pretalab</b></p>
+                            <a href="https://www.pretalab.com/formacao" target="_blank">Pretalab / Olabi</a>
+                            <p class="lista-descricao"> Formação básica em HTML, CSS e Javascript </p>
+                            <p class="lista-descricao"> Carga horaria: xxx horas</p>
+                        </li>     
+                        <br> <br>                      
                         <li>
-                            <p><b>Graduanda em Letras Português - Literaturas
-                                </b></p>
-                            <a href="http://www.portal.letras.ufrj.br/"
-                                target="_blank">Faculdade de Letras - UFRJ</a>
-                            <p> Ensino Superior </p>
+                            <p class="lista-titulo"> <b>Graduanda em Letras Português - Literaturas </b></p>
+                            <a href="http://www.portal.letras.ufrj.br/" target="_blank" >Faculdade de Letras - UFRJ</a>
+                            <p class="lista-descricao"> Ensino Superior </p>
                         </li>
                     </ul>
+                
                 </div>
+            </div>
 
             </section>
 
-            <section id="projetos">
+            <section id="projetos" class="wrapper-portfolio">
+                <article class="container article-lista">
                 <div>
-                    <b>Meus projetos</b>
+                    <h3 class="topico-principal"><b>Meus projetos</b></h3>
                 </div>
 
-                <div>
+                <div class="lista-item" >
                     <ul>
                         <li>
-                            <p><b>Calculadora</b></p>
-                            <a href="#" target="_blank">Calculadora em
-                                Javascript</a>
-                            <p>
+                            <p class="lista-titulo"><b>Calculadora</b></p>
+                            <a href="#" target="_blank">Calculadora em Javascript</a>
+                            <p class="lista-descricao">
                                 Projeto desenvolvido durante o Ciclo Formativo
                                 Pretalab
                             </p>
                         </li>
-
+                        <br> <br> 
                         <li>
-                            <p><b>Projeto pessoal React</b></p>
+                            <p class="lista-titulo"><b>Projeto pessoal React</b></p>
                             <a href="#" target="_blank">Projeto de React</a>
-                            <p>
+                            <p class="lista-descricao">
                                 Projeto desenvolvido durante o Ciclo Formativo
                                 Pretalab
                             </p>
@@ -120,23 +124,26 @@
                     </ul>
 
                 </div>
-
+            </article>
             </section>
         </main>
 
-        <footer>
-            <div id="contatos">
-                <ul>
+        <footer class="rodape"   id="contatos">
+            <div class="container">
+                <ul class="lista-rodape">
                     <li>
-                        <i class="fad fa-mailbox"></i> <a>natacha.projeto@live.com</a>
+                        <i class="fa-solid fa-square-envelope"></i> 
+                        <a href="mailto: natacha.projeto@live.com" target="_blank" class="links"> natacha.projeto@live.com</a>
                     </li>
-
+                    
                     <li>
-                        <i class="fa fa-linkedin-in"></i>linkedin.com/in/natacha-carvalho
+                        <i class="fa-brands fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/natacha-carvalho" target="_blank" class="links">linkedin.com/in/natacha-carvalho </a>
                     </li>
-
+                    
                     <li>
-                        <i class="fa fa-github"></i>github.com/eu1natacha
+                        <i class="fa-brands fa-github"></i>
+                        <a  href="https://github.com/eu1natacha" target="_blank" class="links">github.com/eu1natacha </a>
                     </li>
                 </ul>
 

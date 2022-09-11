@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif
+    margin: 0:;
+}
+
+li{
+    list-style: none;
+}
+
+.header-menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    height: 60px;
+    background-color: rgb(174, 65, 228);
+}
+
+.header-menu nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.lista-menu li>a {
+    color: azure;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 55%;
+}
+
+.principal {
+    height: 100vh;
+    display: flex;
+    background-color: rgb(248, 248, 250);
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nome-completo{
+    font-size: 36px;
+    color: rgb(65, 4, 65);
+    font-weight: 700;
+    height: 45px;
+}
+
+.profissao{
+    color: rgb(0, 0, 0);
+    line-height: 32px;
+}
+
+.texto-sobre{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.article-lista{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.topico-principal{
+    font-size: 36px;
+    color: deeppink;
+}
+
+.lista-item{
+    padding: 32px;
+}
+
+.lista-item ul li {
+    margin-bottom: 32px;
+}
+
+.lista-titulo{
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: rgb(189, 7, 113);
+    font-weight: 700;
+}
+
+.lista-local{
+    font-size: 18px;
+    color: darkturquoise;
+}
+
+.lista-descricao{
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px; /*Espaçamento entre as linhas*/
+    color: #828282;
+    font-weight: 300;
+}
+
+.wrapper-portfolio {
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape {
+    width:fit-content
+    height: 550px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(174, 65, 228);
+}
+
+.estilo-icon {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.links {
+    text-decoration:none;
+    color: white;
+}
+
+.lista-rodape li {
+    color: #FFFF;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    }
